@@ -1,30 +1,47 @@
     Chapter 1
     INSTALLING PYTHON
+    Capítulo 1
+    INSTALANDO PYTHON
 
 Topics Covered In This Chapter:
+Tópicos cobertos nestes capítulo:
 
 •   Downloading and installing the Python interpreter
 •   IDLE’s interactive shell
 •   How to use this book
 •   The book’s website at http://inventwithpython.com
+•   Baixar e instalar o interpretador Python
+•   Execução do IDLE´s no modo interativo
+•   Como usar este livro
+•   O website do livro em http://inventwithpython.com
+
 
 Hello! This book teaches you how to program by making video games. Once you learn how the games in this book work, you’ll be able to create your own games. All you’ll need is a computer, some software called the Python interpreter, and this book. The Python interpreter is free to download from the Internet.
+Oi pessoal! Este livro ensina você a programar a partir de vários jogos de computador. Uma vez que você aprender como os jogos nestes livro funcionam você será capaz de criar os seus próprios jogos. Tudo o que você vai precisar é um computador, um programa chama interpretador Python, e este livro. O interpretador Python é gratuíto e pode ser baixado da internet.
 
 When I was a kid, a book like this one taught me how to write my first programs and games. It was fun and easy. Now as an adult, I still have fun programming and I get paid for it. But even if you don’t become a computer programmer when you grow up, programming is a useful and fun skill to have.
+Quando eu era um garoto, um livro como este me ensinou como escrever meus primeiros programas e jogos. Era divertido e fácil. Agora, como um adulto, I ainda me divirto programando e agora recebo por isso. Mas mesmo se você não se tornar um programador quando crescer, programação é um conhecimento muito util (e divertido) de se ter.
 
 Computers are incredible machines, and learning to program them is easy. If you can read this book, you can program a computer. A computer program is a bunch of instructions that the computer can understand, just like a storybook is a bunch of sentences understood by the reader. Video games are nothing but computer programs, so they are also made up of instructions.
+Computadores são máquinas incríveis, e aprender a programa-los é fácil. Se você consegue ler este livro você consegue programar um computador. Um programa de computador é um monte de instruções que um computador consegue entender, da mesma forma que um livro de histórias são um monte de texto que é entendido por quem lê. Jogos de computador (video games) nada mais são que programas de computador, eles também são feitos de um monte de instruções para computador.
 
 To instruct a computer, you write a program in a language the computer understands. This book teaches a programming language named Python. There are many different programming languages including BASIC, Java, JavaScript, PHP, and C++.
+Para instruir um computador você escreve um programa numa linguagem que o computador entenda. Este livro ensina uma linguagem chamada Python. Há muitas linguagens de programa diferentes incluindo BASIC, Java, Javascript, PHP e C++.
 
 When I was a kid, BASIC was a common first language to learn. However, new programming languages such as Python have been invented since then. Python is even easier to learn than BASIC! But it’s still a serious programming language used by professional programmers. Many adults use Python in their work and when programming for fun.
+Quando eu era criança era comum BASIC ser a primeira linguagem de escolha pra se aprender. Entretanto novas linguagens de programação foram criadas desde então. Python é ainda mais fácil de aprender que BASIC! Mas é também uma linguagem de programação séria usada por programadores profissionais em empresas e institutos de pesquisa. Muitos adultos usam Python em seu trabalho e quando programam para se divertir.
 
 The games you’ll create from this book seem simple compared to the games for the Xbox, Playstation, or Wii. These games don’t have fancy graphics because they’re meant to teach coding basics. They’re purposely simple so you can focus on learning to program. And games don’t have to be complicated to be fun.
+Os jogos que você ira criar a partir deste livro parecem simples comparados com jogos para Xbox, Playstation ou Wii. Estes jogos não possuem graficos incríveis porque eles tem o proposito de ensinar a base de programação. Eles são simples de propósito assim você pode focar em aprender a programar. Outro ponto é que os jogos não precisam ser complicados para serem divertidos.
 
 Downloading and Installing Python
+Baixe e instale Python
 
 You’ll need to install software called the Python interpreter. The interpreter program understands the instructions you’ll write in the Python language. I’ll just refer to “the Python interpreter software” as “Python” from now on.
+Você irá precisar instalar um software chamado interpretador Python. O interpretador é um programa que entende as instruções que você irá escrever na linguagem Python. Daqui pra frente eu vou chamar "o interpretador de programas em Python" de "Python" no resto do livro.
 
 Download Python 3.4 or a later version from the official Python website, http://www.python.org. Download the 32-bit version of Python for your operating system, even if you have a 64-bit computer. The Pygame module used later in this book currently runs only on 32-bit Python.
+Baixe Python 3.4 ou uma versão superior do site official do Python em http://www.python.org. O site esta todo em inglês mas basta você procurar pelo menu Downloads e baixar a versão para o seu sistema operacional. IMPORTANTE baixe a versão 32-bit mesmo se você tiver um computador 64-bits. O módulo Pygame usado no fim do livro roda somente em Python 32-bit. Para quem tiver sistema operacional Windows procure pelo "Windows x86 MSI installer" que é a versão 32-bit do instalador para Windows.
 
 Important Note! Be sure to install Python 3, and not Python 2. The programs in this book use Python 3, and you’ll get errors if you try to run them with Python 2. It is so important, I’ve added a cartoon penguin in Figure 1-1 to tell you to install Python 3 so you do not miss this message.
 
