@@ -1,0 +1,1 @@
+It is recommended to follow the general vocabulary style of this tutorial: http://turing.com.br/pydoc/2.7/tutorial/index.html
