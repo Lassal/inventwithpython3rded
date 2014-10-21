@@ -44,70 +44,105 @@ Download Python 3.4 or a later version from the official Python website, http://
 Baixe Python 3.4 ou uma versão superior do site official do Python em http://www.python.org. O site esta todo em inglês mas basta você procurar pelo menu Downloads e baixar a versão para o seu sistema operacional. IMPORTANTE baixe a versão 32-bit mesmo se você tiver um computador 64-bits. O módulo Pygame usado no fim do livro roda somente em Python 32-bit. Para quem tiver sistema operacional Windows procure pelo "Windows x86 MSI installer" que é a versão 32-bit do instalador para Windows.
 
 Important Note! Be sure to install Python 3, and not Python 2. The programs in this book use Python 3, and you’ll get errors if you try to run them with Python 2. It is so important, I’ve added a cartoon penguin in Figure 1-1 to tell you to install Python 3 so you do not miss this message.
+Importante! Se assegure de instalar Python 3, e não Python 2. Os programas neste livro usam Python 3 e você irá encontrar erros e você tentar rodar eles em Python2. Isto é tão importante que eu adicionei um desenho de pinguim na Figura 1-1 para te avisar que instalar Python 3 para você não perder esta mensagem.
 
 
 
 Figure 1-1: An incongruous penguin tells you to install Python 3.
+Figura 1-1: Um pinguim inconformado te avisa a instalar Python 3.
 
 Starting IDLE
+Iniciando o IDLE
 
 IDLE stands for Interactive DeveLopment Environment. The development environment is like word processing software for writing Python programs. Starting IDLE is different on each operating system.
+IDLE é a sigla do inglês Interactive DeveLopment Environment, que em português é Ambiente Interativo de Desenvolvimento. Este ambiente de desenvolvimento é um programa como um editor de textos para escrever programas em Python. Iniciar o IDLE é diferente em cada sistema operacional.
 
 On Windows, click the Start button in the lower left corner, type “IDLE” and select IDLE (Python GUI).
+No Windows, clique no botão Iniciar no canto inferior esquerdo da sua tela, e digite "IDLE" e selecione IDLE (Python GUI).
+
 
 On Mac OS X, open the Finder window and click on Applications. Then click Python 3.4. Then click the IDLE icon.
+No Mac OS X, abra a janela do Finder e clique em Aplicações, então clique em Python 3.4 e depois no icone do IDLE.
 
 On Ubuntu or Linux, open a terminal window and then type “idle3”. You may also be able to click on Applications at the top of the screen. Then click Programming and IDLE 3.
-
+No Ubuntu ou Linux, abra uma janela de terminal e então digite "idle3". Você pode também ser capaz de clicar em Aplicações no topo da tela e então selecionar Programação e IDLE 3.
 
 
 Figure 1-2: The IDLE program’s interactive shell on Windows, OS X, and Ubuntu Linux.
+Figura 1-2: O programa "shell" interativo IDLE no Windows, OS X, e Ubuntu Linux. 
 
 The window that appears when you first run IDLE is the interactive shell. You can enter Python instructions into the interactive shell and Python will perform them. Python will display instruction results back in the interactive shell.
+A janela que aparece quando você primeiro executa IDLE é um "shell" interativo. Um "shell" é um programa que permite que você digite comandos e estes sejam interpretados e executados. Você pode digitar seus comandos Python no shell interativo e eles seram executados pelo Python. E os resultados desta execução serão exibidos de volta neste shell (onde você digitou os comandos).
 
 How to Use this Book
+Como usar este livro
 
 Most chapters in this book will begin with a sample run of the featured program. This sample run shows you what the program looks like when you run it. The user types in shown as bold print.
+Maioria dos capítulos neste livro irão começar com um exemplo da execução do programa sendo apresentado. Este exemplo mostra como é o programa quando você executa ele. O código digitado pelo usuário está em negrito.
 
 Type the code for the program into IDLE’s file editor yourself, rather than download it. You’ll remember programming better if you type in the code.
+Apesar da tentação e facilidade de baixar o código e copiar e colar no editor do IDLE, digite o código você mesmo. Desta forma você irá lembrar e entender melhor o que esta programando. 
 
 Line Numbers and Spaces
+Número de linhas e spaços
 
 When typing the source code, do not type the line numbers appear at the beginning of each line. For example, if you see this in the book:
+Quando for digitar o código fonte, não digite os números que aparecem no inicio de cada linha. Por exemplo, se você vir isto no livro
 
 9. number = random.randint(1, 20)
+9. numero = random.randint(1, 20)
 
 You do not need to type the “9.” on the left side, or the one space immediately following it. Just type it like this:
+Você não precisa digitar o "9." no lado esquerdo ou o espaço imediatamente seguido a ele. Simplesmente digite isso desta forma:
 
 number = random.randint(1, 20)
+numero = random.randint(1, 20)
 
 Those numbers are only so this book can refer to specific lines in the programs. They are not a part of the actual program.
+Estes números existem para que o livro possa referenciar linhas específicas nos programas. Eles não são realmente parte do programa.
 
 Aside from the line numbers, enter the code exactly as it appears. Notice that some of the lines of code are indented by four or eight spaces. Each character in IDLE is the same width. Count the number of spaces by counting the number of characters on the line above or below.
+Tirando os números das linhas digite o código exatamente como ele aparece. Perceba que algumas linhas de código são indentadas por 4 ou 8 espaços. Cada character no IDLE tem a mesma largura. Conte o número de espaços contando o número de carácteres na linha acima ou abaixo.
 
 For example, the indented spaces here are marked with a ▪ black square:
+Por exemplo os spaços indentados aqui são marcados com um ▪ quadrado preto:
 
 while guesses < 10:
 ▪▪▪▪if number == 42:
 ▪▪▪▪▪▪▪▪print('Hello')
 
+while chances < 10:
+▪▪▪▪if numero == 42:
+▪▪▪▪▪▪▪▪print('Oi')
+
 Text Wrapping in This Book
+Quebra de texto neste livro
 
 Some lines of code are too long to fit on one line on the page and will wrap around to the next line. Enter this code all on one line without pressing Enter. You can tell when a new line starts by looking at the line numbers on the left side of the code. For example, the code below has only two lines of code:
+Algumas linhas de código são muito grandes para caber numa só linha na página e serão quebradas para a próxima linha. Quando for digitar, digite todo o código sem pressionar o "Enter". Você conseguirá dizer quando uma nova linha começa pelo número no inicio da linha. Por exemplo o código abaixo tem somente duas linhas de código:
 
 1. print('This is the first line! xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxx')
 2. print('This is the second line, not the third line.')
 
+1. print('Esta é a primeira linha! xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxx')
+2. print('Esta é a segunda linha, não a terceira.')
+
 The first line wraps around and makes it look like three lines in total. That is only because this book’s pages aren’t wide enough to fit the first line on one line.
+A primeira linha quebra e faz parecer como 3 linhas ao todo. Isto só acontece porque as páginas deste livro não são largas o suficiente para para caber a primeira linha numa linha da página.
 
 Finding Help Online
+Buscando ajuda online
 
 This book’s website is at http://inventwithpython.com. You can find several resources related to this book there. Several links in this book use the invpy.com domain name for shortened URLs.
+Este website deste livro esta em http://inventwithpython.com. Você pode encontrar diversos recursos relacionados a este livro lá. Vários links neste livro usam o dominio invpy.com para versões reduzidas das URLs.
 
 The subreddit web site at http://reddit.com/r/inventwithpython is a great place to ask programming questions related to this book. Post general Python questions to the LearnProgramming and LearnPython subreddits at http://reddit.com/r/learnprogramming and http://reddit.com/r/learnpython, respectively.
+O subreddit website em http://reddit.com/r/inventwithpython é um ótimo lugar para perguntar questões de programação relacionadas a este livro. Poste questões gerais sobre Python em LearnProgramming e LearnPython subreddits em http://reddit.com/r/learnprogramming e http://reddit.com/r/learnpython, respectivamente.
 
 Also, email me your programming questions at al@inventwithpython.com.
+Você pode também me enviar suas questões de programação em al@inventwithpython.com.
 
 Keep in mind there are smart ways to ask programming questions that help others help you. Be sure to read the Frequently Asked Questions sections these websites have about the proper way to post questions. When asking programming questions, do the following:
 
